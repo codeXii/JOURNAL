@@ -43,7 +43,7 @@
           <li><a href="index.html" class="active">Home<br></a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="courses.html">Courses</a></li>
-           <li><a href="./publications.html"><span>Publication</span></a></li>
+           <li><a href="./publications.html"><span>Publications</span></a></li>
           <!-- <li class="dropdown"><a href="publication.html"><span>Publication</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="events.html">Events</a></li>
@@ -83,37 +83,43 @@
             <div class="col-lg-12">
               <form method="POST" action="" class="mt-3" enctype="multipart/form-data">
                   
-                 <div class="form-group col-md-4">
-                                  <label for="password">Author Full Names</label>
-                </div>
-                          
-                 <div class="row mb-3 col-md-6 " >
-                              <div class="form-group">
-                                  <input type="text" class="form-control" name="password" id="password" placeholder="Fullnames">
-                              </div>
+
+                <div class="row mb-3 ">
+                  <div class="form-group col-md-6">
+                        <label for="password">Author Full Names</label>
+                        <input type="text" class="form-control" name="password" id="password" placeholder="Fullnames">
+                  </div>
+
+                  <div class="col-md-6 form-group">
+                        <label for="password">Co-Authors</label>
+                        <input type="text" class="form-control" name="password_confirmation" value="" id="cpassword" placeholder="Names are comma seperated">     
+                  </div>
                 </div>
 
-                 <div class="row col-md-6 mb-3">
-                                <div class="form-group">
-                                    <label for="password">Book Title</label>
-                                <input type="text" class="form-control" name="password_confirmation" value="" id="cpassword" placeholder="Title of Book">
-                                </div>
+
+
+                 
+
+                 <div class="row  mb-2 form-group">
+                        <div class="col-md-6">
+                            <label for="password">Publication Title</label>
+                            <input type="text" class="form-control" name="password_confirmation" value="" id="cpassword" placeholder="Title of publication">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="password">Publication cover photo</label>
+                            <input type="file" class="form-control" name="password_confirmation" value="" id="cpassword" placeholder="Title of publication">
+                        </div>
                 </div>
 
-                 <div class="row col-md-6 mb-3">
-                                <div class="form-group">
-                                    <label for="password">Co-Authors</label>
-                                <input type="text" class="form-control" name="password_confirmation" value="" id="cpassword" placeholder="Names are comma seperated">
-                                </div>
-                </div>
+                
 
                   <div class="form-group col-4 mb-2" >
-                                <label for="password">Document</label>
-                                <input type="file" class="form-control" name="password_confirmation" value="">
+                                <label for="password">Document (Pdf, Docx)</label>
+                                <input type="file" class="form-control" name="password_confirmation" value="" placeholder="Pdf, Docx">
                 </div>        
-                          <div class="form-group">
-                              <button class="btn btn-secondary" type="submit">Upload</button>
-                          </div>
+                <div class="form-group">
+                    <button class="btn btn-secondary" type="submit">Upload</button>
+                </div>
                       </form>
             </div>
           </div>
@@ -146,7 +152,8 @@
                 <h3><a href="course-details.html">The Eternal Ones</a></h3>
                 <p class="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
                 <div class="trainer d-flex justify-content-between align-items-center">
-                  <p>By: Mr James Smith</p>
+                    <p class="mt-2">By: Mr James Smith</p>
+                    <a href="">Download</a>
                 </div>
               </div>
             </div>
@@ -161,7 +168,8 @@
                 <h3><a href="course-details.html">Origin of Aids In Africa</a></h3>
                 <p class="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
                 <div class="trainer d-flex justify-content-between align-items-center">
-                <p>By: James Smith</p>
+                    <p class="mt-2">By: Mr James Smith</p>
+                    <a href="">Download</a>
                 </div>
               </div>
             </div>
@@ -176,7 +184,8 @@
                 <h3><a href="course-details.html">Where Sleeping Girl Lies</a></h3>
                 <p class="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
                 <div class="trainer d-flex justify-content-between align-items-center">
-                 <p>By: James Smith</p>
+                    <p class="mt-2">By: Mr James Smith</p>
+                    <a href="">Download</a>
                 </div>
               </div>
             </div>
